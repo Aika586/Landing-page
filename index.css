@@ -1,0 +1,300 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "inter";
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+}
+/* Header style  */
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+header {
+  margin: 0px;
+  min-width: 1366px;
+  min-height: 64px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+#logo {
+  line-height: 150%;
+  font-size: 24px;
+  font-weight: 700px;
+  color: #0f2a59;
+  margin-left: 110px;
+  margin-top: 10px;
+  margin-bottom: 18px;
+}
+
+nav > span {
+  border-right: 1px solid #e8e8e8;
+}
+
+.links {
+  font-size: 14px;
+  font-family: "inter";
+  font-weight: 700;
+  line-height: 17px;
+  color: #181818;
+  font-style: normal;
+}
+
+.fa-solid {
+  font-size: 8px;
+  text-align: center;
+  margin-left: 2px;
+  margin-right: 10px;
+  border-right: 1px solid #e8e8e8;
+}
+
+.lan {
+  padding-right: 102px;
+  display: flex;
+}
+
+.lan > p {
+  padding-right: 5px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.lan > img {
+  padding-left: 5px;
+}
+
+/* main style */
+
+main {
+  width: 100%;
+}
+
+.main-section {
+  background-image: url("fotka.png");
+  min-width: 100%;
+  min-height: 568px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.right-left {
+  box-sizing: border-box;
+  border: 1px solid #ffffff;
+  width: 40px;
+  height: 40px;
+}
+
+.right-left > img {
+  padding: 14.17px;
+}
+
+#right {
+  margin-right: 20px;
+}
+
+.text {
+  margin-left: -900px;
+}
+
+#left {
+  margin-left: 20px;
+}
+
+.text > h1 {
+  color: white;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 150%;
+  padding-bottom: 13px;
+}
+.text > p {
+  color: white;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  padding-bottom: 35px;
+}
+
+.text > button {
+  width: 124px;
+  height: 30px;
+  line-height: 150%;
+  font-weight: 500;
+  font-size: 12px;
+}
+.text > button {
+  background-color: black;
+  border: 1px solid white;
+  color: white;
+}
+
+.information {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+  margin-top: 32px;
+  padding-left: 99px;
+  padding-right: 99px;
+}
+
+.article-one {
+  width: 368px;
+  height: 130px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  background-color: #f8f8f8f8;
+  align-items: left;
+  border-left: 5px solid #e8e8e8;
+  grid-column: span 1;
+}
+
+.p {
+  margin: 10px;
+}
+.p2,
+.p3 {
+  width: 331px;
+  height: 42px;
+  padding-top: 10px;
+  padding-left: 25px;
+
+  z-index: 2;
+}
+
+.article.p > img {
+  z-index: 1;
+}
+.article-two {
+  display: flex;
+  width: 368px;
+  height: 130px;
+  background-color: #f8f8f8f8;
+  grid-column: span 1;
+  border-left: 5px solid #0f2a59;
+}
+
+.article-two {
+  position: relative;
+}
+
+.article-two.p2 > span {
+  font-size: 14px;
+  z-index: 3;
+}
+.article-three {
+  display: flex;
+  max-width: 368px;
+  min-height: 130px;
+  background-color: #f8f8f8f8;
+  grid-column: span 1;
+  border-left: 5px solid #0f2a59;
+}
+
+.icons {
+  margin-top: 4px;
+  margin-right: 3px;
+}
+/* main-two style*/
+
+#h1 {
+  padding: 104px 692px 24px 99px;
+}
+.main-two {
+  width: 100%;
+  min-height: 568px;
+  padding-left: 99px;
+  padding-right: 50px;
+}
+.main-two {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.first-image {
+  background-image: url("184.png");
+  width: 568px;
+  height: 383px;
+  margin-right: 38px;
+}
+
+.flex-inside {
+  max-width: 600px;
+  max-height: 400px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.news {
+  color: white;
+  padding-top: 309px;
+  padding-left: 10px;
+}
+.news-small {
+  padding-top: 130px;
+  padding-left: 10px;
+  color: #ffff;
+}
+.second-image {
+  background-image: url("185.png");
+  width: 268px;
+  height: 188px;
+}
+
+.Image-3 {
+  background-image: url("186.png");
+  width: 268px;
+  height: 188px;
+}
+.Image-4 {
+  background-image: url("187.png");
+  width: 268px;
+  height: 188px;
+}
+.Image-5 {
+  background-image: url("188.png");
+  width: 268px;
+  height: 188px;
+}
+
+.about-job {
+  width: 100%;
+}
+
+.square {
+  width: 268px;
+  height: 480px;
+}
+
+.info {
+  width: 540px;
+  height: 365px;
+  border: 1px solid black;
+}
+
+.info > h1 {
+  padding-top: 40px;
+  padding-left: 48px;
+}
+
+.info > p {
+  padding-top: 10px;
+  padding-left: 48px;
+  padding-right: 48px;
+}
