@@ -1,8 +1,7 @@
 * {
-  box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: "inter";
+  font-family: "inter,sans-serif";
 }
 
 body {
@@ -24,15 +23,15 @@ header {
 }
 
 a {
-  color: black;
   text-decoration: none;
+  font-style: none;
 }
 
 #logo {
   line-height: 150%;
-  font-size: 24px;
-  font-weight: 700px;
-  color: #0f2a59;
+  font-size: 28px;
+  font-weight: 400px;
+  color: #181818;
   margin-left: 110px;
   margin-top: 10px;
   margin-bottom: 18px;
@@ -44,7 +43,6 @@ nav > span {
 
 .links {
   font-size: 14px;
-  font-family: "inter";
   font-weight: 700;
   line-height: 17px;
   color: #181818;
@@ -62,13 +60,13 @@ nav > span {
 .lan {
   padding-right: 102px;
   display: flex;
+  align-items: center;
 }
 
 .lan > p {
   padding-right: 5px;
-  font-weight: 400;
   font-size: 14px;
-  line-height: 17px;
+  line-height: 16px;
 }
 
 .lan > img {
@@ -81,13 +79,37 @@ main {
   width: 100%;
 }
 
+.icon {
+  display: inline-block;
+  border-radius: 8px;
+  box-shadow: 0 0 2px white;
+  padding: 0.3em 0.3em;
+  background-color: azure;
+  margin-right: 15px;
+  border: 1px solid #ffffff;
+}
+
+#circle {
+  background-color: #0f2a59;
+}
+
 .main-section {
-  background-image: url("fotka.png");
-  min-width: 100%;
+  background-image: url("./images/fotka.png");
+  max-width: 100%;
   min-height: 568px;
+}
+.main-section {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+}
+
+.icons-slider {
+  align-self: flex-end;
+  margin-right: 480px;
+  margin-bottom: 20px;
 }
 .right-left {
   box-sizing: border-box;
@@ -97,7 +119,7 @@ main {
 }
 
 .right-left > img {
-  padding: 14.17px;
+  padding: 14px 17px;
 }
 
 #right {
@@ -105,7 +127,8 @@ main {
 }
 
 .text {
-  margin-left: -900px;
+  margin-top: -45px;
+  margin-left: -50px;
 }
 
 #left {
@@ -116,20 +139,20 @@ main {
   color: white;
   font-weight: 700;
   font-size: 28px;
-  line-height: 150%;
-  padding-bottom: 13px;
+  line-height: 42px;
+  padding-bottom: 20px;
 }
 .text > p {
   color: white;
   font-weight: 400;
   font-size: 12px;
   line-height: 150%;
-  padding-bottom: 35px;
+  padding-bottom: 62px;
 }
 
 .text > button {
-  width: 124px;
-  height: 30px;
+  min-width: 130px;
+  min-height: 28px;
   line-height: 150%;
   font-weight: 500;
   font-size: 12px;
@@ -226,7 +249,7 @@ main {
 }
 
 .first-image {
-  background-image: url("184.png");
+  background-image: url("./images/184.png");
   width: 568px;
   height: 383px;
   margin-right: 38px;
@@ -252,43 +275,96 @@ main {
   color: #ffff;
 }
 .second-image {
-  background-image: url("185.png");
+  background-image: url("./images/185.png");
   width: 268px;
   height: 188px;
 }
 
 .Image-3 {
-  background-image: url("186.png");
+  background-image: url("./images/186.png");
   width: 268px;
   height: 188px;
 }
 .Image-4 {
-  background-image: url("187.png");
+  background-image: url("./images/187.png");
   width: 268px;
   height: 188px;
 }
 .Image-5 {
-  background-image: url("188.png");
+  background-image: url("./images/188.png");
   width: 268px;
   height: 188px;
 }
 
-.about-job {
-  width: 100%;
+/*main -three*/
+
+.main-three {
+  margin: 0;
+  padding: 0;
 }
 
-.square {
+.image {
+  max-width: 1168px;
+  max-height: 480px;
+
+  margin: 0;
+  padding: 0;
+  position: absolute;
+}
+#mountain-foto {
+  margin: 0;
+  padding: 0;
+  width: px;
+}
+
+.rectangle {
   width: 268px;
   height: 480px;
+
+  float: right;
+}
+
+.rectangle,
+#rectangle {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(
+    0deg,
+    rgba(250, 250, 250, 0.8),
+    rgba(250, 250, 250, 0.8),
+    rgba(250, 250, 250, 0.8)
+  );
+  backdrop-filter: filter(15px);
+}
+
+#rectangle {
+  width: 368px;
+  height: 480px;
+  float: left;
 }
 
 .info {
   width: 540px;
   height: 365px;
-  border: 1px solid black;
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.8)
+  );
+  backdrop-filter: blur(15px);
+  position: relative;
+  left: 564px;
+  top: 57px;
+}
+
+#info {
+  position: relative;
+  left: 64px;
 }
 
 .info > h1 {
+  color: #181818;
   padding-top: 40px;
   padding-left: 48px;
 }
@@ -297,4 +373,96 @@ main {
   padding-top: 10px;
   padding-left: 48px;
   padding-right: 48px;
+  color: #b6b6b6;
+}
+.button {
+  min-width: 178px;
+  min-height: 30px;
+  color: #0f2a59;
+  font-size: 14px;
+  font-weight: 500;
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.8)
+  );
+  line-height: 150%;
+  margin-left: 48px;
+  margin-top: 9px;
+}
+
+.main-three {
+  margin-top: -72px;
+}
+.sections {
+  margin-left: 99px;
+  margin-bottom: 150px;
+}
+
+footer {
+  max-width: 100%;
+  min-height: 478px;
+  background-color: #181818;
+}
+
+#p {
+  font-size: 24px;
+  line-height: 29.05px;
+  font-weight: 700;
+  color: #ffffff;
+  padding-top: 56px;
+  padding-left: 99px;
+}
+
+footer > .contacts > div > span {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15.73px;
+  color: #ffffff;
+}
+
+.contacts {
+  padding-left: 100px;
+  padding-top: 21px;
+}
+.white {
+  color: #ffffff;
+  padding-bottom: 15px;
+  padding-left: 15px;
+}
+
+#image {
+  float: right;
+  margin-top: -305px;
+  margin-right: 100px;
+}
+
+.phone {
+  padding-bottom: 15px;
+}
+
+#social {
+  padding-top: 15px;
+}
+
+.social {
+  padding-bottom: 15px;
+}
+
+/*style about-us page*/
+
+#h1-about {
+  padding-top: 32px;
+  padding-bottom: 16px;
+  padding-left: 99px;
+}
+
+.text-title > p {
+  font-weight: 300px;
+  font-size: 14px;
+  line-height: 150%;
+  padding-right: 399px;
+  padding-left: 99px;
+  padding-bottom: 93px;
 }
