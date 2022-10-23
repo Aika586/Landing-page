@@ -19,11 +19,11 @@
   <body>
     <!-- HEADER -->
     <header class="header-flex">
-    <h2 id="logo">Лого</h2>
+    <p id="logo">Лого</p>
     <nav>
       <span><a href="about-us.html" class="links">О нас</a><i class="fa-solid fa-chevron-down"></i></div></span>
-      <span><a href="" class="links"> Наша миссия</a><i class="fa-solid fa-chevron-down"></i></span>
-      <span><a href="" class="links">Контакты</a> <i class="fa-solid fa-chevron-down"></i></div></span>
+      <span><a href="#section-our-mission" class="links"> Наша миссия</a><i class="fa-solid fa-chevron-down"></i></span>
+      <span><a href="#footer" class="links">Контакты</a> <i class="fa-solid fa-chevron-down"></i></div></span>
     </nav>
 
     <div class="lan">
@@ -32,8 +32,10 @@
       <img src="./images/rf.png"/>
     </div>
     </header>
-    <!--MAIN-->
-    <main>
+    <!--MAIN-BANNER-->
+    <!--main-banner  with three sections:1.main-section;2.information-card; 3.section-news-->
+    <main id="banner">
+      <!--main-section-->
       <section class="main-section">
         <div class="right-left " id="left">
           <img src="./images/left.png"/>
@@ -56,116 +58,111 @@
         </div>
        
       </section>
-   
-
-
-      <section class="information">
-        <article class="article-one">
-          <div class="p">
-          <p font-size="14px">Личный кабинет</p>
-          <p font-size="12px">На стадии разработки</p>
-          </div>
-          
-          <img  class="icons" src="./images/Work.png" width="81.69px" height="80.54px" />
+      <!--section-information-card-->
+      <section class="information-card">
+        <article class="article-card one">
+          <p  class="p-card font-16">Личный кабинет</p>
+          <p  class="p-card font-14">На стадии разработки</p>
+          <img  class="icons" src="./images/Work.png" />
         </article>
-        <article class="article-two">
-          <div class="p2">
-          <p><strong>Как подключиться?</strong></p>
-          <p>Подключение объектов к системе<br/>
+        <article class="article-card two">
+          <p class="p-card font-16"><strong>Как подключиться?</strong></p>
+         <p class="p-card font-14"> Подключение объектов к системе<br/>
       Централизованного теплоснабжения</p>
-        </div>
-          <img src="./images/Setting.png" width="81.69px" height="80.54px" class="icons" />
+          <img src="./images/Setting.png" class="icons" />
         </article>
-        <article  class="article-three">
-          <div class="p3">
-          <p><strong>Тарифы и калькуляторы</strong></p>
-          <span>Дейтсвующие тарифы на услуги</span><br>
-          <span>Кыргызтеплоэнерго</span>
-          </div>
-          <img src="./images/Tick Square.png" width="81.71px" height="81.72px" class="icons"/>
+        <article  class="article-card three">
+          <p class="p-card font-16"><strong>Тарифы и калькуляторы</strong></p>
+            <p  class="p-card font-14">Дейтсвующие тарифы на услуги<br>
+            Кыргызтеплоэнерго</p>
+          <img src="./images/Tick Square.png" class="icons"/>
         </article>
       </section>
-    </main>
+
+      <!--news-section-->
+
     
-    <h1 id="h1">Последние актуалные новости <br/>в мире энергии</h1>
-    <main class="main-two">
+    <p id="h1">Последние актуалные новости <br/>в мире энергии</p>
+    
+    <section class="news-section">
         <div class="first-image">
           <div class="news">
-          <p font-size="14">08.04.03</p>
-          <h4>Встреча министра образования с учителями школы Гимназии №70 города бишкекка</h4>
+          <p>08.04.03</p>
+          <p id="news-p">Встреча министра образования с учителями школы Гимназии №70 
+            города бишкекка</p>
             </div>
         </div>
         <div class="flex-inside">
-        <div class="second-image">
+        <div class="second-image i-size">
           <div class="news-small">
-          <p>08.03.04 18:34</p>
-          <h6>Встреча министра образования с учителями школы...</h6>
+          <p class="small-p">08.03.04 18:34</p>
+          <p class="bold-large">Встреча министра образования с учителями школы...</p>
           </div>
         </div>
         
-        <div class="Image-3">
+        <div class="Image-3 i-size">
           <div class="news-small">
-          <p>08.04.03 18:34</p>
-          <h6>Встреча министра образования с учителями школы...</h6>
+          <p class="small-p">08.04.03 18:34</p>
+          <p class="bold-large">Встреча министра образования с учителями школы...</p>
           </div>
         </div>
-        <div class="Image-4">
+        <div class="Image-4 i-size">
         <div class="news-small">
-          <p>08.04.03 18:34</p>
-          <h6>Встреча министра образования с учителями школы...</h6>
+          <p class="small-p">08.04.03 18:34</p>
+          <p class="bold-large">Встреча министра образования с учителями школы...</p>
         </div>
         </div>
-        <div class="Image-5">
+        <div class="Image-5 i-size">
           <div class="news-small">
-          <p>08.04.03 18:34</p>
-          <h6>Встреча министра образования с учителями школы...</h6>
+          <p class="small-p">08.04.03 18:34</p>
+          <p class="bold-large">Встреча министра образования с учителями школы...</p>
           </div>
         </div>
-        </div> 
-      </main>
+      </section>
+    </main>
+<!--OUR MISSION-->
+<main id="section-our-mission">
+  <section class="our-mission 1">
+  <div class="image" id="image-1">
+    <img src="./images/mountain.png" id="mountain-foto"/>
+    <div class="rectangle"></div>
 
-      <main class="main-three sections">
-          <div class="image">
-            <img src="./images/mountain.png" id="mountain-foto"/>
-            <div class="rectangle"></div>
-
-            </div>
-            
-          <article class="info">
-            
-            <h1>Как мы начинали</h1>
-            <p>Методологический подход к экологии как к науке позволяет выделить предмет, задачи и методы исследований.
-              Объекты исследования экологии — в основном, системы выше уровня отдельных организмов: популяции, биоценозы, экосистемы, 
-              а также вся биосфера. Предмет изучения — организация и функционирование таких систем.
-              Главная задача прикладной экологии — </p>
-              <button class="button">Подробнее о нас</button>
-            </article>
-        
-        </main>
-        <main class="main-four sections">
+    </div>
+    
+  <article class="info info-1">
+    
+    <h1 class="h1">Как мы начинали?</h1>
+    <p>Методологический подход к экологии как к науке позволяет выделить предмет, задачи и методы исследований.
+      Объекты исследования экологии — в основном, системы выше уровня отдельных организмов: популяции, биоценозы, экосистемы, 
+      а также вся биосфера. Предмет изучения — организация и функционирование таких систем.
+      Главная задача прикладной экологии — </p>
+      <button class="button">Подробнее о нас</button>
+    </article>
+    </section>
+        <section class="our-mission 2">
           <div class="image">
             <img src="./images/214.png"/>
           
           <div id="rectangle"></div>
 
             </div>
-          <article class="info" id="info">
-            <h1>Наша дальнейшая цел и будущее</h1>
+          <article id="info" class="info">
+            <h1 class="h1">Наша дальнейшая цел <br/> и будущее</h1>
             <p>Методологический подход к экологии как к науке позволяет выделить предмет, задачи и методы исследований.
               Объекты исследования экологии — в основном, системы выше уровня отдельных организмов: популяции, биоценозы, экосистемы, а также вся биосфера. Предмет изучения — организация и функционирование таких систем.
               
               Главная задача прикладной экологии — </p>
               <button class="button">Подробнее о нас</button>
             </article>
-            </main>
+          </section>
 
-            <main class="main-five sections">
+            <section class="our-mission 3">
               <div class="image">
                 <img src="./images/215.png"/>
                 <div class="rectangle"></div>
                 </div>
-                <article class="info">
-                  <h1>Кто мы?</h1>
+                <article class="info info-1">
+                  <h1 class="h1">Кто мы?</h1>
                   <p>Методологический подход к экологии как к науке позволяет выделить предмет, задачи и методы исследований.
                     Объекты исследования экологии — в основном, системы выше уровня отдельных организмов: популяции, биоценозы, экосистемы, а также вся биосфера. Предмет изучения — организация и функционирование таких систем.
                     
@@ -176,8 +173,9 @@
             </article>
             
     
-    </main>
-    <footer>
+          </section>
+          </main>
+    <footer id="footer">
       <p id="p">Наши контакты</p>
       <div class="contacts">
       <div class="phone"></p><img src="./icons/phone.png" alt="icon-phone"/>
