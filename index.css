@@ -509,4 +509,25 @@ footer > .contacts > div > span {
 
 /* Responsive */
 
-/* banner */
+
+@media (max-width: 600px) {
+  footer {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  section-our-mission {
+    width: 100%;
+    padding-left: 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  .main-section {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+}
